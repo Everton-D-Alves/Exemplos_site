@@ -1,0 +1,17 @@
+/* Defina as cores que você deseja misturar */
+:root {
+    --cor-rosa: #ff66b2; /* Rosa */
+    --cor-roxo: #9966cc; /* Roxo */
+    --cor-azul: #3366ff; /* Azul */
+}
+
+/* Crie um gradiente linear */
+body {
+    margin: 0; /* Remova as margens padrão do corpo */
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, var(--cor-rosa) 0%, var(--cor-roxo) 50%, var(--cor-azul) 100%);
+}

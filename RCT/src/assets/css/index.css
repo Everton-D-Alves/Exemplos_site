@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.conteudo {
+  background-color: black;
+  color: yellow;
+  font-style: italic;
+  font-size: 20pt;
+  font-family: "Nimbus Roman";
+  border: yellow 10px solid;
+  box-shadow: 10px 10px 10px, -10px -10px 10px white;
+  text-shadow: 10px 10px 10px, -10px -10px 10px white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-grow: 1;
+  padding: 0px;
+}
+
+.menu {
+  background-color: #005aff;
+  width: 330px;
+}
+.menu nav {
+  flex-grow: 1;
+}
+.menu ul {
+  padding: 0px;
+  list-style: none;
+}
+.menu li {
+  display: flex;
+}
+.menu li a {
+  color: yellow;
+  font-size: 25pt;
+  text-decoration: none;
+  flex-grow: 1;
+  padding: 10px;
+}
+.menu li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*# sourceMappingURL=index.css.map */

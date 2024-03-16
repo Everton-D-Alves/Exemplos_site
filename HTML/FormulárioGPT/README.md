@@ -1,0 +1,3 @@
+    • <fieldset> é usado para agrupar os campos relacionados. Aqui, temos dois grupos: "Dados Pessoais" e "Informações de Contato".
+    • <legend> é usado dentro de cada <fieldset> para fornecer uma legenda descritiva para o grupo de elementos.
+    • <optgroup> é usado dentro do menu suspenso de seleção de países (<select>) para agrupar opções relacionadas. As opções são agrupadas por região: América e Europa. Cada <optgroup> tem um rótulo que descreve a região.

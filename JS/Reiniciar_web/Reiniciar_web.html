@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão de Reiniciar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #botao {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sua Página Web</h1>
+    <!-- Botão de Reiniciar -->
+    <button id="botao">Reiniciar</button>
+
+    <script>
+        // Função para reiniciar a página
+        function reiniciarPagina() {
+            location.reload(true); // Recarrega a página, forçando o recarregamento do cache
+        }
+
+        // Adiciona um ouvinte de eventos ao botão
+        document.getElementById('botao').addEventListener('click', reiniciarPagina);
+    </script>
+</body>
+</html>

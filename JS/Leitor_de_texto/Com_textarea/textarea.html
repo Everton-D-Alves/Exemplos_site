@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "shortcut icon" href = "balão.ico" type = "image/x-icon" />
+  <title>Leitor de Texto</title>
+</head>
+<body>
+
+  <h1>Leitor de Texto com Voz Feminina Brasileira</h1>
+
+  <label for="texto">Digite o texto:</label>
+  <textarea id="texto" rows="4" cols="50"></textarea>
+
+  <button onclick="lerTexto()">Ler Texto</button>
+
+  <script>
+    function lerTexto() {
+      var texto = document.getElementById('texto').value;
+      var utterance = new SpeechSynthesisUtterance();
+      utterance.text = texto;
+      utterance.lang = 'pt-BR';
+      utterance.rate = 1.0; // Velocidade da leitura (pode ajustar conforme necessário)
+      utterance.pitch = 1.0; // Tom da voz (pode ajustar conforme necessário)
+
+      window.speechSynthesis.speak(utterance);
+    }
+  </script>
+
+</body>
+</html>

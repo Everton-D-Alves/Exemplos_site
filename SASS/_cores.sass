@@ -1,0 +1,22 @@
+$f: 20pt !default 
+@if $f < 18pt or $f > 25pt
+    @error "Valor inválido!"
+@else 
+    @debug "Compilado a 1ª parte!"
+@mixin cor1 
+    @warn "Depreciado!"
+    background-color: orange
+    color: black
+    font-style: oblique
+    font-size: 18pt
+    font-family: 'Courier New', Courier, monospace
+@mixin cor2 
+    background-color: black
+    color: gray 
+    font-style: italic
+    font-size: $f
+    font-family: "Nimbus Roman"
+@mixin cor3 
+    background-image: url("./img/caminhonete1.jpg")
+    background-repeat: no-repeat 
+    background-size: cover

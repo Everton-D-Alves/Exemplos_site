@@ -1,0 +1,24 @@
+body {
+  font-size: 25pt;
+  margin: 0px;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  color: gray;
+  height: 50vh;
+}
+
+main {
+  background-color: blue;
+  color: cyan;
+  height: 40vh;
+}
+
+footer {
+  background: linear-gradient(to right, violet 0%, indigo 25%, lightblue 50%, yellow 75%, cyan 100%);
+  height: 10vh;
+}
+
+/*# sourceMappingURL=style.css.map */

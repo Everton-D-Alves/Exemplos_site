@@ -1,0 +1,16 @@
+body {
+  margin: 0px;
+  background: linear-gradient(to right, violet 0%, indigo 50%, blue 100%);
+}
+
+h1 {
+  text-align: center;
+}
+
+p, ruby, rt {
+  display: flex;
+  font-size: 15pt;
+  text-indent: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

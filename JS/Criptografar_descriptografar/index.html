@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "stylesheet" href = "style.css" />
+  <link rel = "shortcut icon" href = "balão.ico" type = "image/x-icon" />
+  <title>Cifra de César</title>
+</head>
+<body>
+
+  <label for="mensagem">Mensagem:</label>
+  <input type="text" id="mensagem" placeholder="Insira a mensagem">
+
+  <label for="chave">Chave:</label>
+  <input type="number" id="chave" placeholder="Insira a chave">
+
+  <button onclick="criptografar()">Criptografar</button>
+  <button onclick="descriptografar()">Descriptografar</button>
+    
+  <p id="resultado"></p>
+
+  <script src="criptografia.js"></script>
+</body>
+</html>

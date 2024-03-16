@@ -1,0 +1,44 @@
+body {
+  font: normal 18pt Arial, sans-serif;
+  margin: 0px;
+  text-align: center;
+}
+
+header {
+  background-image: url("./carro.jpg"), url("./tela.png");
+  background-size: contain;
+  background-blend-mode: screen;
+  width: 100vw;
+  height: 30vh;
+}
+
+section {
+  background-image: url("./caminhonete.jpg"), url("./gotas.png");
+  background-size: contain;
+  background-blend-mode: screen;
+  width: 100vw;
+  height: 30vh;
+}
+
+article {
+  background-image: url("./paisagem.jpg"), url("./poster.png");
+  background-size: contain;
+  background-blend-mode: screen;
+  width: 100vw;
+  height: 30vh;
+}
+
+footer {
+  background: linear-gradient(to right, maroon 0%, indigo 50%, violet 100%);
+  color: yellow;
+  width: 100vw;
+  height: 10vh;
+}
+footer::before {
+  content: "Cores: ";
+}
+footer::after {
+  content: "Marrom, roxo, rosa.";
+}
+
+/*# sourceMappingURL=style.css.map */

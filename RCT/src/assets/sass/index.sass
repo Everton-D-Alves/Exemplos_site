@@ -1,0 +1,31 @@
+@forward "total"
+@use "total" as t 
+body 
+    margin: 0px 
+.app
+    display: flex
+    height: 100vh
+.conteudo
+    @include t.cor2 
+    @include t.dm
+    @include t.dp
+    flex-grow: 1
+    padding: 0px
+.menu
+    background-color: t.$inverter
+    width: 330px
+    nav
+        flex-grow: 1
+    ul 
+        padding: 0px 
+        list-style: none 
+    li 
+        display: flex 
+        a 
+            color: yellow
+            font-size: t.somar(5pt, 10pt, 10pt)
+            text-decoration: none 
+            flex-grow: 1 
+            padding: calc(t.$total + t.$final)
+            &:hover 
+                background-color: rgba(0, 0, 0, 0.4)

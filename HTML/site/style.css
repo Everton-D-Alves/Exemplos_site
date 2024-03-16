@@ -1,0 +1,40 @@
+@charset "utf-8";
+body{
+    background-color: blue;
+    color: cyan;
+    font-style: italic;
+    font-size: 18pt;
+    font-family: "Nimbus Roman";
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: cyan 10px solid;
+    box-shadow: 10px 10px 10px black;
+    text-shadow: 10px 10px 10px black;
+    overflow: hidden;
+}
+#audio{
+    color: cyan;
+    font: italic 25pt "Nimbus Roman";
+    text-decoration: none;
+}
+#video{
+    color: cyan;
+    font: italic 25pt "Nimbus Roman";
+    text-decoration: none;
+}
+#imagem{
+    color: cyan;
+    font: italic 25pt "Nimbus Roman";
+    text-decoration: none;
+}
+#voltar{
+    color: cyan;
+    font: italic 25pt "Nimbus Roman";
+    text-decoration: none;
+}

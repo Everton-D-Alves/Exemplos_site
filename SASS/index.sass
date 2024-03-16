@@ -1,0 +1,9 @@
+// Compilar para CSS: Terminal → Novo Terminal → Dentro da pasta 'treino': sass --watch SASS:CSS (+ Enter).
+@forward "total"
+@use "total" as t 
+body 
+    @include t.cor1 
+    @include t.dm 
+    @include t.dp 
+    border: white t.somar(2px, 3px, 5px) solid
+    padding: calc(t.$total + t.$final)

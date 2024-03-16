@@ -1,0 +1,15 @@
+// Baixar sass: sudo npm install -g sass (+ Enter).
+$cor1: green 
+$cor2: yellow
+$cor3: blue
+$cor4: white
+body 
+    // to right: Da esquerda para a direita, to bottom: De cima para baixo.
+    background: linear-gradient(to bottom, $cor1 0%, $cor2 25%, $cor3 50%, $cor4 100%)
+    color: white
+    font: italic 72pt 'Nimbus Roman'
+    text-align: center 
+    margin: 0px
+    height: 100vh
+    div::after
+        content: "Bem-vindos!"

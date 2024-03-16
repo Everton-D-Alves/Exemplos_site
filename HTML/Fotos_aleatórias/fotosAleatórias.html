@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel = "shortcut icon" href = "sorridente.ico" type = "image/x-icon" />
+  <title>Gerador de fotos aleatórias</title>
+</head>
+<body style = "margin: 0px; text-align: center; ">
+  <h2>Foto aleatória</h2>
+  <img id="fotos" src="./tela.jpg" alt="Random Photo"><hr/>
+  <button onclick="gerarFotos()">Gerar foto aleatória</button><hr/>
+
+  <script>
+    function gerarFotos() {
+      var fotoElemento = document.getElementById('fotos');
+      var gerarImagemId = Math.floor(Math.random() * 1000 + 1); // Você pode ajustar o intervalo conforme necessário
+      var imagemUrl = `https://picsum.photos/id/${gerarImagemId}/1920/750`;
+      fotoElemento.src = imagemUrl;
+    }
+  </script>
+</body>
+</html>

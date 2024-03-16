@@ -1,0 +1,30 @@
+$letra: 20pt !default
+@if $letra < 18pt or $letra > 25pt 
+    @error "Valor inválido!"
+@else 
+    @debug "Compilado a 1ª parte com sucesso!"
+@mixin cor1 
+    @warn "Depreciado!"
+    background-color: indigo
+    color: violet
+    font-style: oblique 
+    font-size: 18pt
+    font-family: 'Courier New', Courier, monospace
+@mixin cor2 
+    background-color: black
+    color: yellow
+    font-style: italic 
+    font-size: $letra
+    @debug "A fonte está com #{$letra} !"
+    font-family: "Nimbus Roman"
+    border: yellow 10px solid 
+    box-shadow: 10px 10px 10px, -10px -10px 10px white
+    text-shadow: 10px 10px 10px, -10px -10px 10px white
+@mixin cor3 
+    background-image: url("../image/paisagem3.jpg")
+    background-repeat: no-repeat 
+    background-size: cover
+@mixin cor4 
+    background-image: url("../image/pedras5.jpg")
+    background-repeat: repeat 
+    background-size: contain 

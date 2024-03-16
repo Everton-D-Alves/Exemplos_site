@@ -1,0 +1,8 @@
+You
+Pra que serve contenteditable, role, aria-multiline dentro do p?
+ChatGPT
+contenteditable, role e aria-multiline são atributos HTML que são utilizados para fornecer funcionalidades específicas ou melhorar a acessibilidade de elementos na página. Aqui está uma explicação breve de cada um deles:
+    → 1. contenteditable: Este atributo torna um elemento HTML editável. Quando definido como "true" em um elemento, permite que o usuário edite o conteúdo desse elemento, como se fosse um campo de formulário. No exemplo fornecido, o atributo contenteditable="true" no <p> permite que o usuário insira e edite texto diretamente nesse parágrafo.
+    → 2. role: Este atributo define o papel semântico de um elemento na página. No exemplo, role="textbox" é utilizado para indicar que o parágrafo (<p>) age como uma caixa de texto. Isso é útil para tecnologias assistivas, como leitores de tela, para interpretar corretamente o papel do elemento na interface do usuário.
+    → 3. aria-multiline: Este atributo é usado em conjunto com role="textbox" e indica se o campo de texto (ou, neste caso, o parágrafo) suporta várias linhas de texto. O valor "true" indica que o elemento aceita várias linhas de texto, enquanto "false" indica que aceita apenas uma linha. No exemplo, aria-multiline="true" é usado para indicar que o parágrafo pode aceitar várias linhas de texto.
+Esses atributos são especialmente úteis em situações onde a interatividade e a acessibilidade são considerações importantes, como em formulários ou em conteúdo editável em tempo real. Eles ajudam a melhorar a experiência do usuário e a garantir que a página seja acessível para pessoas com deficiências.

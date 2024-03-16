@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" href = "feliz.ico" type = "image/x-icon" />
+    <link rel = "stylesheet" href = "style.css" />
+    <title>Index de mídias</title>
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Bem vindos!</h1>
+            <p>Página de teste HTML, com tag's semânticas, etc...</p>
+        </header>
+        <section>
+            <article>
+                <!-- Sublinhado: -->
+                <span style = "text-decoration: underline;">Exemplo1</span>
+                 <!-- Riscado: -->
+                <del>Exemplo2</del>
+                <!-- Sublinhado: -->
+                <ins>Exemplo3</ins>
+            </article>
+            <article>
+                <main>
+                    <!-- Mostrar exatamente o código como foi escrito: -->
+                    <pre>
+                        <!-- Tag 'code' é semântico, para dizer ao navegador que é um trecho de código. -->
+                        <code>
+                            function somar(x, y){
+                                return x * y;
+                            };
+                            console.log(somar(2, 8)); // 16.
+                        </code>
+                        <code>
+                            <!-- Sinal de menor: &lt; 
+                                 Sinal de maior: &gt; -->
+                            #include &lt;iostream&gt; 
+                            int main(){
+                                cout &lt;&lt; "Olá, Mundo!";
+                                return 0;
+                            };
+                            </iostream>
+                        </code>
+                    </pre>
+                </main>
+            </article>
+        </section>
+        <aside>
+            <a href = "audio.html"  id = "audio">Áudio</a>
+            <a href = "video.html"  id = "video">Vídeo</a>
+            <a href = "imagem.html" id = "imagem">Imagem</a>
+        </aside>
+        <footer>© || ® || ™</footer>
+    </div>
+    <script src = index.js defer></script>
+</body>
+</html>

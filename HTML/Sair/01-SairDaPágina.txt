@@ -1,0 +1,11 @@
+Para criar um botão que fecha a janela atual, você pode usar o elemento HTML <button> com o atributo onclick que chama a função JavaScript window.close (). Por exemplo:
+
+HTML
+
+<button onclick="window.close()">Sair da página</button>
+
+Esse código cria um botão com o texto “Sair da página” que, quando clicado, fecha a janela atual. No entanto, isso só funciona se a janela foi aberta por um script. 
+Caso contrário, alguns navegadores podem bloquear ou pedir confirmação para fechar a janela1.
+
+Você também pode usar CSS para estilizar o botão e adicionar efeitos de transição ou ':hover'. 
+Você pode encontrar mais exemplos e explicações sobre o elemento <button> no site W3Schools.

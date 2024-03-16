@@ -1,0 +1,13 @@
+body {
+  background: linear-gradient(to bottom, green 0%, yellow 25%, blue 50%, white 100%);
+  color: white;
+  font: italic 72pt "Nimbus Roman";
+  text-align: center;
+  margin: 0px;
+  height: 100vh;
+}
+body div::after {
+  content: "Bem-vindos!";
+}
+
+/*# sourceMappingURL=style.css.map */

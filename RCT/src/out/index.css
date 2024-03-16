@@ -1,0 +1,66 @@
+.calculadora {
+  width: 235px;
+  height: 330px;
+  border: black 1px solid;
+  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 1fr 48px 48px 48px 48px;
+  overflow: hidden;
+}
+
+.painel {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+  font-size: 25pt;
+  font-family: "Ani";
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-column: span 4;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.botao {
+  background-color: silver;
+  color: gray;
+  font-style: italic;
+  font-size: 18pt;
+  font-family: "Nimbus Roman";
+  outline: none;
+  border: none;
+  border-right: gray 2px solid;
+  border-bottom: gray 2px solid;
+  padding: 10px;
+}
+.botao:active {
+  background-color: gray;
+  color: silver;
+  border-top: black 2px solid;
+  border-left: black 2px solid;
+}
+
+.operador {
+  background-color: orange;
+  color: orangered;
+  border-right: orangered 2px solid;
+  border-bottom: orangered 2px solid;
+}
+.operador:active {
+  background-color: orangered;
+  color: orange;
+  border-top: black 2px solid;
+  border-left: black 2px solid;
+}
+
+.duplo {
+  grid-column: span 2;
+}
+
+.triplo {
+  grid-column: span 3;
+}
+
+/*# sourceMappingURL=index.css.map */
