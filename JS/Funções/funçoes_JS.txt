@@ -1,0 +1,28 @@
+Em JavaScript, você pode definir funções de várias maneiras diferentes, incluindo funções anônimas, funções nomeadas, funções com parâmetros e funções que chamam outras funções. Vou explicar cada uma delas:
+    1. Função Anônima: Uma função anônima é uma função que não possui um nome associado a ela. Elas podem ser atribuídas a variáveis, passadas como argumentos para outras funções ou definidas em locais onde são necessárias. Aqui está um exemplo de uma função anônima:
+       let minhaFuncao = function() {
+           console.log("Esta é uma função anônima.");
+       };
+    2. Função Nomeada: Uma função nomeada é uma função que possui um nome associado a ela. Elas podem ser declaradas usando a palavra-chave function seguida pelo nome da função. Aqui está um exemplo de uma função nomeada:
+       function minhaFuncaoNomeada() {
+           console.log("Esta é uma função nomeada.");
+       }
+    3. Função com Parâmetros: Funções podem aceitar parâmetros, que são valores que podem ser passados para a função quando ela é chamada. Os parâmetros são especificados entre os parênteses na declaração da função. Aqui está um exemplo de uma função com parâmetros:
+       function soma(a, b) {
+           return a + b;
+       }
+       let resultado = soma(3, 5); // Chama a função soma passando os argumentos 3 e 5
+    4. Função com Chamada de Função: Funções podem chamar outras funções dentro de seu corpo. Isso é útil para reutilizar código e organizar funcionalidades em partes menores e mais gerenciáveis. Aqui está um exemplo de uma função que chama outra função:
+       function funcaoExterna() {
+           console.log("Esta é a função externa.");
+           funcaoInterna();
+       }
+       
+       function funcaoInterna() {
+           console.log("Esta é a função interna.");
+       }
+       
+       funcaoExterna(); // Chama a função externa, que por sua vez chama a função interna
+Esses são conceitos fundamentais no JavaScript que são amplamente utilizados no desenvolvimento web e em muitas outras áreas de programação JavaScript.
+
+

@@ -1,0 +1,15 @@
+Para criar um botão de "copiar" em JavaScript, você pode usar a API document.execCommand('copy') para copiar o texto selecionado para a área de transferência. Aqui está um exemplo de como você pode implementar isso:
+HTML:
+<input type="text" id="textoParaCopiar" value="Texto a ser copiado">
+<button onclick="copiarTexto()">Copiar</button>
+JavaScript:
+function copiarTexto() {
+  var inputTexto = document.getElementById("textoParaCopiar");
+  inputTexto.select();
+  document.execCommand("copy");
+  alert("Texto copiado para a área de transferência!");
+}
+Neste exemplo, temos um campo de entrada de texto e um botão "Copiar". Quando o botão é clicado, a função copiarTexto() é chamada. Esta função seleciona o texto dentro do campo de entrada usando select(), executa o comando de cópia usando document.execCommand("copy"), e então exibe um alerta para notificar o usuário que o texto foi copiado com sucesso.
+Lembre-se de que a execução do comando document.execCommand('copy') pode não ser suportada em todos os navegadores. Certifique-se de testar em diferentes navegadores para garantir a compatibilidade. Além disso, em ambientes mais recentes, pode ser necessário usar a API navigator.clipboard.writeText() para acessar a área de transferência.
+
+
