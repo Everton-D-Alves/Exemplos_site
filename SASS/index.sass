@@ -1,10 +1,10 @@
 // Compilar para CSS: Terminal → Novo Terminal → Dentro da pasta 'treino': sass --watch SASS:CSS (+ Enter).
-// Dentro da pasta 'treino' cria a pasta 'SASS' e a pasta 'CSS' antes de compilar. Então compila de pasta para pasta. 
+// Dentro da pasta 'treino' cria a 'pasta SASS' e o 'arquivo SASS' antes de compilar. Então compila de pasta para pasta.
 @forward "total"
-@use "total" as t 
-body 
-    @include t.cor1 
-    @include t.dm 
-    @include t.dp 
+@use "total" as t
+body
+    @include t.cor1
+    @include t.dm
+    @include t.dp
     border: white t.somar(2px, 3px, 5px) solid
     padding: calc(t.$total + t.$final)
